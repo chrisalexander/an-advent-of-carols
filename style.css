@@ -1,0 +1,66 @@
+.advent {
+    font-family: 'Clicker Script', cursive;
+}
+
+.cables {
+    font-family: 'Abel', sans-serif;
+}
+
+.wenni {
+    font-family: 'Puppies Play', cursive;
+}
+
+.track {
+    font-family: 'Caveat', cursive;
+    font-size: 26px;
+}
+
+.track audio {
+    width: 200px;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    background-size: cover;
+}
+
+.advent-header {
+    font-size: 80px;
+    line-height: 88px;
+}
+
+.advent-subheader {
+    font-size: 28px;
+}
+
+.advent-text {
+    color: #fff;
+    text-shadow: -1px -1px 0 #8e8e8e, 1px -1px 0 #8e8e8e, -1px 1px 0 #8e8e8e, 1px 1px 0 #8e8e8e;
+}
+
+@media(max-width: 992px) {
+    .track {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 768px) {
+    .advent-header {
+        font-size: 72px;
+        line-height: 80px;
+    }
+}
+
+@media(max-width: 576px) {
+    .advent-header {
+        font-size: 54px;
+        line-height: 70px;
+    }
+    .track {
+        font-size: 16px;
+    }
+    .track audio {
+        width: 140px;
+    }
+}
